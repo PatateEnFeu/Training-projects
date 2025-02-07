@@ -1,0 +1,47 @@
+* {
+  background-color: black;
+}
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.banner {
+  display: flex;
+  position: fixed;
+  align-content: flex-start;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+div a:link {
+  color: seashell;
+  display: inline;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+div a:visited {
+  color: seashell;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.image-2 {
+  height: 700px;
+}
+
+.text-overlay {
+  text-align: center;
+  translate: 0 -450px;
+}
